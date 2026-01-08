@@ -55,7 +55,7 @@ recieptView(context, List<Orders> orderslist) async {
                 child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
-                      Text('InstaFood\nSales-Report', textScaleFactor: 2),
+                      Text('kk food\nSales-Report', textScaleFactor: 2),
                     ])),
             SizedBox(height: 10),
             Center(
@@ -63,7 +63,7 @@ recieptView(context, List<Orders> orderslist) async {
                   height: 100, width: 100, child: Image.provider(profileImage)),
             ),
             Center(
-              child: Text('InstaFood App', textScaleFactor: 2)
+              child: Text('kk food App', textScaleFactor: 2)
             ),
             SizedBox(height: 10),
             Text("Sales-Report Generation of Year: " +
@@ -71,7 +71,7 @@ recieptView(context, List<Orders> orderslist) async {
             SizedBox(height: 10),
             Header(
                 level: 1,
-                text: 'Sales-Report Generated From The InstaFood App'),
+                text: 'Sales-Report Generated From The kk food App'),
             Padding(padding: const EdgeInsets.all(10)),
             Table.fromTextArray(context: context, data: <List<String>>[
               <String>['Month', 'Total Earnings', 'Profit %', 'Loss %'],
@@ -228,7 +228,7 @@ class SalesData {
 // pw.Row(
 //   mainAxisAlignment: pw.MainAxisAlignment.end,
 //   children: [
-//     pw.Text("InstaFood\nSales-Report",
+//     pw.Text("kk food\nSales-Report",
 //         style:
 //             pw.TextStyle(fontSize: 10, fontWeight: pw.FontWeight.bold)),
 //     pw.Container(

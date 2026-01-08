@@ -146,7 +146,7 @@ class _MobileState extends State<Mobile> {
                             Text("Tap to choose profile image")
                           ],
                         ):Text(""),
-                        text("Enter your phone number to continue to InstaFood and manage canteen orders at the tip of your fingers.",textColor: Color(0xFF9D9D9D), isLongText: true, isCentered: true),
+                        text("Enter your phone number to continue to kk food and manage canteen orders at the tip of your fingers.",textColor: Color(0xFF9D9D9D), isLongText: true, isCentered: true),
                         SizedBox(height: spacing_large),
                         Row(
                           children: <Widget>[

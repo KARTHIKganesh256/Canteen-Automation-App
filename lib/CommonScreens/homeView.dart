@@ -7,6 +7,7 @@ import 'package:canteen_app/CommonScreens/all.dart';
 import 'package:canteen_app/CommonScreens/categories.dart';
 import 'package:canteen_app/CommonScreens/description.dart';
 import 'package:canteen_app/CommonScreens/notifications.dart';
+import 'package:canteen_app/CommonScreens/recommendations.dart';
 import 'package:canteen_app/CommonScreens/search.dart';
 import 'package:canteen_app/Helpers/Item.dart';
 import 'package:canteen_app/Helpers/collection.dart';
@@ -94,7 +95,7 @@ class _HomeViewState extends State<HomeView> {
         htmlFormatContent: true,
         htmlFormatContentTitle: true);
     var androidDetails = new AndroidNotificationDetails(
-        channelCount, "InstaFood", "This is my channel",
+        channelCount, "kk food", "This is my channel",
         importance: Importance.max, styleInformation: bigPicture);
 
     var iSODetails = new IOSNotificationDetails();
@@ -202,6 +203,16 @@ class _HomeViewState extends State<HomeView> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) => Search()));
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(
+                                Icons.recommend,
+                                color: Colors.black,
+                                size: 25,
+                              ),
+                              onPressed: () {
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => RecommendationsPage()));
                               },
                             ),
                             Stack(
@@ -354,7 +365,7 @@ class _HomeViewState extends State<HomeView> {
                           onTap: () {
                             print("Tap Event");
                           },
-                          text: ["Feeling Hungry? Try InstaFood!!!"],
+                          text: ["Feeling Hungry? Try kk food!!!"],
                           textStyle: TextStyle(
                               fontSize: 20.0,
                               fontFamily: "Bold",

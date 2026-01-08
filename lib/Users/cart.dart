@@ -196,7 +196,7 @@ class _CartState extends State<Cart> {
     var options = {
       'key': 'rzp_test_ilVZU64kpCLrTf',
       'amount': amount,
-      'name': 'InstaFood',
+      'name': 'kk food',
       'description': 'Food Orders',
       'prefill': {'contact': phn, 'email': 'test@razorpay.com'},
       'external': {

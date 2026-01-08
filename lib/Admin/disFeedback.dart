@@ -152,7 +152,7 @@ class _DisplayFeedbackState extends State<DisplayFeedback> with SingleTickerProv
                                               Share.text(
                                                   'Following is the Feedback -- ',
                                                   marketList.data()['feedback'] +
-                                                      '\nFeedback Shared from InstaFood App.',
+                                                      '\nFeedback Shared from kk food App.',
                                                   'text/plain');
                                             },
                                           ),

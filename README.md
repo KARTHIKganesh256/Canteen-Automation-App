@@ -1,4 +1,4 @@
-<h1 align="center"> 🍕Insta🍕 <br> 🍦Food🍦 <br> Canteen Automation App </h1>
+<h1 align="center"> 🍕kk🍕 <br> 🍦food🍦 <br> Canteen Automation App </h1>
 
 <p align= "center"><img width=70% src="https://github.com/anotherwebguy/Canteen-Automation-App/blob/master/assets/app.png"></p>
  
@@ -108,7 +108,7 @@ click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
-**Congratulations!!**  :boom: Sit and relax, you've made your contribution to [Insta Food](https://github.com/anotherwebguy/Canteen-Automation-App) project.
+**Congratulations!!**  :boom: Sit and relax, you've made your contribution to [kk food](https://github.com/anotherwebguy/Canteen-Automation-App) project.
 
 <h2 align= "left"><b>Code of Conduct</b></h2>
 
@@ -130,6 +130,48 @@ Distributed under the GPL-3.0 License. See [LICENSE](https://github.com/anotherw
 		</td>
 	</tr>
 </table>
+
+---
+
+## API testing (local)
+
+Quick smoke-test script to verify your model endpoints locally. From the project root:
+
+```bash
+# Make executable the first time
+chmod +x ./scripts/test_api.sh
+
+# Run against localhost (default)
+./scripts/test_api.sh
+
+# Or point to emulator / device / remote server
+BASE_URL=http://10.0.2.2:8000 ./scripts/test_api.sh
+```
+
+If you get non-200 responses or JSON that differs from the expected schema, paste the output here and I will update the client and models.
+
+---
+
+## Web preview (open screens directly)
+
+You can run the app on the web and open the new screens directly in the browser:
+
+1. Start the web server:
+
+```bash
+# Default port 8080
+flutter run -d web-server --web-port=8080
+```
+
+2. Open these direct URLs in your browser (hash routing):
+
+- Recommendations: http://127.0.0.1:8080/#/recommendations
+- Predict Demand: http://127.0.0.1:8080/#/predict-demand
+
+Notes:
+- If you run the web server on a remote host, replace 127.0.0.1 with the host IP.
+- For quick testing on emulator/device, you may prefer `flutter run -d chrome` or `flutter run -d edge`.
+- If you need to change the base API URL for the preview, edit `lib/Services/api_config.dart` (set to `http://10.0.2.2:8000` for Android emulator).
 
 
 

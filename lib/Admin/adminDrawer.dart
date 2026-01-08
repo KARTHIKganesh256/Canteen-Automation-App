@@ -1,6 +1,7 @@
 import 'package:canteen_app/Admin/addproduct.dart';
 import 'package:canteen_app/Admin/allOrders.dart';
 import 'package:canteen_app/Admin/disFeedback.dart';
+import 'package:canteen_app/Admin/predict_demand.dart';
 import 'package:canteen_app/Authentications/dashboard.dart';
 import 'package:canteen_app/CommonScreens/all.dart';
 import 'package:canteen_app/CommonScreens/homeView.dart';
@@ -175,7 +176,12 @@ class _AdminDrawerState extends State<AdminDrawer> {
                   padding: const EdgeInsets.only(left:15.0,right: 15.0),
                   child: Divider(color: Color(0XFFDADADA), height: 1),
                 ),
-                getDrawerItem(Icons.feedback, "Feedbacks", 6,tags: DisplayFeedback()),
+                getDrawerItem(Icons.show_chart, "Predict Demand", 6,tags: PredictDemandPage()),
+                Padding(
+                  padding: const EdgeInsets.only(left:15.0,right: 15.0),
+                  child: Divider(color: Color(0XFFDADADA), height: 1),
+                ),
+                getDrawerItem(Icons.feedback, "Feedbacks", 7,tags: DisplayFeedback()),
                 Padding(
                   padding: const EdgeInsets.only(left:15.0,right: 15.0),
                   child: Divider(color: Color(0XFFDADADA), height: 1),

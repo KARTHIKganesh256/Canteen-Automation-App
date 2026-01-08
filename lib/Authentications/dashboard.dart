@@ -565,7 +565,7 @@ class _DashboardState extends State<Dashboard> {
                     margin: EdgeInsets.only(top: 80),
                     child: Padding(
                       padding: const EdgeInsets.fromLTRB(16, 10, 16, 10),
-                      child: text1("InstaFood",
+                      child: text1("kk food",
                           textColor: Colors.white,
                           fontSize: 28.0,
                           fontFamily: 'Regular'),
@@ -589,7 +589,7 @@ class _DashboardState extends State<Dashboard> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
-                        text("InstaFood",
+                        text("kk food",
                             textColor: Colors.white,
                             fontSize: 20.0,
                             fontFamily: 'Semibold'),
