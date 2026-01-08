@@ -2,8 +2,6 @@
 
 <p align="center">A comprehensive Flutter application designed to streamline canteen operations. Features include user authentication, product management, order placement, recommendations, demand prediction, and admin dashboard for efficient management.</p>
 
-<p align= "center"><img width=70% src="https://github.com/KARTHIKganesh256/Canteen-Automation-App/blob/master/assets/app.png"></p>
-
 <div align="center">
 
 ![Forks](https://img.shields.io/github/forks/KARTHIKganesh256/Canteen-Automation-App)
@@ -13,10 +11,77 @@
 
 </div>
 
-<h1 align=center> Tech Stack 🔥 </h1>  
+## Features
+
+- **User Authentication**: Secure login and registration for users and admins.
+- **Product Management**: Add, edit, and manage canteen products.
+- **Order Placement**: Seamless ordering system with cart functionality.
+- **Recommendations**: Personalized food recommendations based on user preferences.
+- **Demand Prediction**: AI-powered demand forecasting for inventory management.
+- **Admin Dashboard**: Comprehensive dashboard for managing orders, users, and analytics.
+- **Payment Integration**: Secure payments via Razorpay.
+- **Notifications**: Real-time notifications for order updates.
+
+<h1 align=center> Tech Stack 🔥 </h1>
   <p align="center">
   <img src="https://img.shields.io/badge/dart-%230175C2.svg?&style=for-the-badge&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter%20-%2302569B.svg?&style=for-the-badge&logo=Flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-orange" width=80/> <img src="https://dashboard.razorpay.com/img/logo_full.png" width=80 height=30/>  <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-	
+
+## Prerequisites
+
+- Flutter SDK (version 2.0 or higher)
+- Dart SDK
+- Android Studio or VS Code with Flutter extensions
+- Firebase account for backend services
+- Razorpay account for payment integration
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/KARTHIKganesh256/Canteen-Automation-App.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd Canteen-Automation-App
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+4. **Set up Firebase:**
+   - Create a Firebase project
+   - Add your Android/iOS apps
+   - Download and place `google-services.json` in `android/app/`
+
+5. **Configure Razorpay:**
+   - Obtain API keys from Razorpay dashboard
+   - Update the keys in the app configuration
+
+## Usage
+
+1. **Run the app:**
+   ```bash
+   flutter run
+   ```
+
+2. **For web:**
+   ```bash
+   flutter run -d web-server
+   ```
+
+3. **For specific device:**
+   ```bash
+   flutter run -d <device_id>
+   ```
+
+4. **Build APK:**
+   ```bash
+   flutter build apk
+   ```
+
 <h2 align= "left"><b>Contributing Guidelines!</b></h2>
 
 1. Make sure to keep the UI consistent while adding a new feature.
