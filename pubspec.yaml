@@ -70,7 +70,8 @@ dependencies:
   image: ^2.1.4
   pdf: ^1.5.0
   advance_pdf_viewer: ^2.0.0
-  
+  speech_to_text: ^6.3.0
+
 
 dev_dependencies:
   flutter_test:
