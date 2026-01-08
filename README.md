@@ -76,17 +76,6 @@ Distributed under the GPL-3.0 License. See [LICENSE](https://github.com/KARTHIKg
 
 
 
-## Contributors:
-<table>
-	<tr>
-		<td>
-			<a href="https://github.com/KARTHIKganesh256/Canteen-Automation-App/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=KARTHIKganesh256/Canteen-Automation-App" />
-</a>
-		</td>
-	</tr>
-</table>
-
 ---
 
 ## API testing (local)
